@@ -1,0 +1,13 @@
+import java.io.*;
+public class Crash{
+  public static void main(String args[]){
+    String grump = new String("This is the greatest");
+    Integer stoke = new Integer(grump.lastIndexOf("t", 10));
+    //Conditional follows
+    if (stoke == 8) {
+      System.out.println("The answer is correct");
+    }else {
+      System.out.println("You made a mistake");
+    }
+  }
+}
